@@ -1,7 +1,7 @@
 # 이펙티브 자바
 ## 1. 들어가기
 
-## [2. 객체 생성과 파괴](https://github.com/Limhyeonsu/Effective_Java/blob/main/2.%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%ED%8C%8C%EA%B4%B4.md)
+## 2. 객체 생성과 파괴
 * 생성자 대신 정적 팩터리 메서드를 고려하라
 * 생성자에 매개변수가 많다면 빌더를 고려하라
 * private 생성자나 열거 타입으로 싱글턴임을 보증하라
@@ -12,14 +12,14 @@
 * finalizer와 cleaner 사용을 피하라
 * try-finally보다는 try-with-resources를 사용하라
 
-## [3. 모든 객체의 공통 메서드](https://github.com/Limhyeonsu/Effective_Java/blob/main/3.%EB%AA%A8%EB%93%A0%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EA%B3%B5%ED%86%B5%20%EB%A9%94%EC%84%9C%EB%93%9C.md)
+## 3. 모든 객체의 공통 메서드
 * equals는 일반 규약을 지켜 재정의하라
 * equals를 재정의하려거든 hashcode도 재정의하라
 * toString을 항상 재정의하라
 * clone 재정의는 주의해서 진행하라
 * Comparable을 구현할지 고려하라
 
-## [4. 클래스와 인터페이스](https://github.com/Limhyeonsu/Effective_Java/blob/main/4.%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md)
+## 4. 클래스와 인터페이스
 * 클래스와 멤버의 접근 권한을 최소화하라
 * public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라
 * 변경 가능성을 최소화하라
@@ -32,7 +32,7 @@
 * 멤버 클래스는 되도록 static으로 만들라
 * 톱레벨 클래스는 한 파일에 하나만 담으라
 
-## [5. 제네릭](https://github.com/Limhyeonsu/Effective_Java/blob/main/5.%EC%A0%9C%EB%84%A4%EB%A6%AD.md)
+## 5. 제네릭
 * 로 타입은 사용하지 말라
 * 비검사 경고를 제거하라
 * 배열보다는 리스트를 사용하라
@@ -42,7 +42,7 @@
 * 제네릭과 가변인수를 함께 쓸 때는 신중하라
 * 타입 안전 이종 컨테이너를 고려하라
 
-## [6. 열거 타입과 애너테이션](https://github.com/Limhyeonsu/Effective_Java/blob/main/6.%EC%97%B4%EA%B1%B0%ED%83%80%EC%9E%85%EA%B3%BC%20%EC%95%A0%EB%84%88%ED%85%8C%EC%9D%B4%EC%85%98.md)
+## 6. 열거 타입과 애너테이션
 * int 상수 대신 열거 타입을 사용하라
 * ordinal 메서드 대신 인스턴스 필드를 사용하라
 * 비트 필드 대신 EnumSet을 사용하라
@@ -52,7 +52,7 @@
 * @Override 애너테이션을 일관되게 사용하라
 * 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라
 
-## [7. 람다와 스트림](https://github.com/Limhyeonsu/Effective_Java/blob/main/7.%EB%9E%8C%EB%8B%A4%EC%99%80%20%EC%8A%A4%ED%8A%B8%EB%A6%BC.md)
+## 7. 람다와 스트림
 * 익명 클래스보다는 람다를 사용하라
 * 람다보다는 메서드 참조를 사용하라
 * 표준 함수형 인터페이스를 사용하라
@@ -61,7 +61,7 @@
 * 반환 타입으로는 스트림보다 컬렉션이 낫다
 * 스트림 병렬화는 주의해서 적용하라
 
-## [8. 메서드](https://github.com/Limhyeonsu/Effective_Java/blob/main/8.%EB%A9%94%EC%84%9C%EB%93%9C.md)
+## 8. 메서드
 * 매개변수가 유효한지 검사하라
 * 적시에 방어적 복사본을 만들라
 * 메서드 시그니처를 신중히 설계하라
@@ -71,7 +71,7 @@
 * 옵셔널 반환은 신중히 하라
 * 공개된 API 요소에는 항상 문서화 주석을 작성하라
 
-## [9. 일반적인 프로그래밍 원칙](https://github.com/Limhyeonsu/Effective_Java/blob/main/9.%EC%9D%BC%EB%B0%98%EC%A0%81%EC%9D%B8%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%9B%90%EC%B9%99.md)
+## 9. 일반적인 프로그래밍 원칙
 * 지역변수의 범위를 최소화하라
 * 전통적인 for문 보다는 for-each 문을 사용하라
 * 라이브러리를 익히고 사용하라
@@ -85,7 +85,7 @@
 * 최적화는 신중히 하라
 * 일반적으로 통용되는 명명 규칙을 따르라
 
-## [10. 예외](https://github.com/Limhyeonsu/Effective_Java/blob/main/10.%EC%98%88%EC%99%B8.md)
+## 10. 예외
 * 예외는 진짜 예외 상황에만 사용하라
 * 복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라
 * 필요 없는 검사 예외 사용은 피하라
@@ -96,7 +96,7 @@
 * 가능한 한 실패 원자적으로 만들라
 * 예외를 무시하지 말라
 
-## [11. 동시성](https://github.com/Limhyeonsu/Effective_Java/blob/main/11.%EB%8F%99%EC%8B%9C%EC%84%B1.md)
+## 11. 동시성
 * 공유 중인 가변 데이터는 동기화해 사용하라
 * 과도한 동기화는 피하라
 * 스레드보다는 실행자, 태스크, 스트림을 애용하라
@@ -105,7 +105,7 @@
 * 지연 초기화는 신중히 사용하라
 * 프로그램의 동작을 스레드 스케줄러에 기대지 말라
 
-## [12. 직렬화](https://github.com/Limhyeonsu/Effective_Java/blob/main/12.%EC%A7%81%EB%A0%AC%ED%99%94.md)
+## 12. 직렬화
 * 자바 직렬화의 대안을 찾으라
 * Serializable을 구현할지는 신중히 결정하라
 * 커스텀 직렬화 형태를 고려해보라
